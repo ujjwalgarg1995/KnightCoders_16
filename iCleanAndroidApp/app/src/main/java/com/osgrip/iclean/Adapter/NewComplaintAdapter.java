@@ -17,9 +17,7 @@ import com.osgrip.iclean.R;
 
 import java.util.List;
 
-/**
- * Created by adarsh2k on 6/5/16.
- */
+
 public class NewComplaintAdapter extends RecyclerView.Adapter<NewComplaintAdapter.MyViewHolder> {
 
     List<Complains> complainsList;
