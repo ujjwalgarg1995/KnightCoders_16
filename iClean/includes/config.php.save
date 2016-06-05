@@ -1,0 +1,6 @@
+<?php
+$dbhost="localhost";
+$dbname="sgzp";
+$dbuser="root";
+$dbpass=OsgS;
+?>

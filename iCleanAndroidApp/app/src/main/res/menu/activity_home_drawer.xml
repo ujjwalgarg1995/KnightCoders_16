@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_my_complaints" android:icon="@android:drawable/ic_menu_edit"
+            android:title="My Complaints" />
+        <item android:id="@+id/nav_pending_uploads" android:icon="@android:drawable/ic_menu_upload"
+            android:title="Pending Uploads" />
+        <item android:id="@+id/nav_be_a_volunteer" android:icon="@drawable/ic_action_add_person"
+            android:title="Be a Volunteer" />
+        <item android:id="@+id/nav_rate_us" android:icon="@drawable/ic_action_half_important"
+            android:title="Rate us on Play Store" />
+        <item android:id="@+id/nav_share" android:icon="@android:drawable/ic_menu_share"
+            android:title="Share" />
+        <item android:id="@+id/nav_visit_site" android:icon="@android:drawable/ic_menu_send"
+            android:title="Visit SwachhApp.In" />
+    </group>
+
+</menu>

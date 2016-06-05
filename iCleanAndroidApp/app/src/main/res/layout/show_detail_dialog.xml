@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="64dp"
+        android:id="@+id/dialogImage"
+        android:src="@drawable/greentick"
+        android:layout_margin="15dp"
+        android:layout_gravity="center" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Thank You !!!"
+        android:id="@+id/dialogHeading"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Your complaint has been successfully posted"
+        android:id="@+id/dialogText"
+        android:layout_gravity="center_horizontal"
+        android:maxWidth="250dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Large Text"
+        android:id="@+id/complainIdText"
+        android:padding="5dp"
+        android:maxHeight="150dp"
+        android:textColor="#fff"
+        android:layout_gravity="center"
+        android:background="@drawable/complain_id_text" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View  Pending Uploads"
+        android:id="@+id/pendingButton"
+        android:background="@drawable/button2"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:visibility="gone" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Post another Complain"
+        android:id="@+id/doneButton"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/button"
+        android:layout_marginTop="10dp" />
+
+</LinearLayout>
